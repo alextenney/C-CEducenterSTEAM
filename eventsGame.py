@@ -119,13 +119,9 @@ setup_maze(levels[1])
 print(walls)
 
 
-#Keyboard Binding
-turtle.listen()
-turtle.onkey(player.go_left,"Left")
-turtle.onkey(player.go_right,"Right")
-turtle.onkey(player.go_up,"Up")
-turtle.onkey(player.go_down,"Down")
-
+'''
+Add the correct command to move the character around below this comment
+'''
 
 #Turn off screen upates
 wn.tracer(0)
