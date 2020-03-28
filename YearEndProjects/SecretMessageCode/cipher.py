@@ -6,10 +6,6 @@ def encrypt(message):
 def decrypt(message):
     pass
 
-#reads a file that contains the message and decrypts it from there
-def readFile(file):
-    pass
-
 # main program
 method = input("Type 'E' if you would like to encode a message, 'D' if you would like to decode a message.")
 
